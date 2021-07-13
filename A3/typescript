@@ -1,0 +1,43 @@
+Script started on 2021-05-11 08:41:21-07:00 [TERM="xterm-256color" TTY="/dev/pts/43" COLUMNS="275" LINES="22"]
+trowlett@ada:~/Documents/CS201/A3$ make
+gcc -c -g fp_parse.c -lm
+gcc fp_parse.o -g -o  fp_parse -lm
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 
+fp_parse <# fraction bits> <# exponent bits> <hex #>. Invalid arguments.
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 11 3 [K[K4 33f
+Invalid number of fraction bits (11). Must be between 2 and 10.
+Terminating application.
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 11 4 33f[K[K[K[K[K[K[K[K4 8 33f
+Invalid number of exponent bits (8).Must be between 3 and 5.
+Terminating application.
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 4 8 33f[K[K[K[K[K[K[K3 3 a334
+Number a334 exceeds number of bits. Only 7 allowed.
+Terminating application.
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 3 3 a334[K[K[K[K[K[K4 23skidoo
+23skidoo is not a valid hex number.Terminating application.
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 3 4 23skidoo[K[K[K[K[K[K[K[K[K[K[K[K4 4 1af
+-8.0000
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 4 4 1af[K[K[Kaf
++8.0000
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 4 4 af[K[K[K[K[K[K4 [K[K3 3 3c
++Inf
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 3 3 3c[K8
++Inf
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 3 3 38[K[K78
+-Inf
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 3 3 78[K[K26
++2.0000
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 3 3 26[K[K18
++1.0000
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 3 3 18[K[K3f
++Inf
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 3 3 3f[K7
++8.0000
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 3 3 37[K[K[K[K[K[K4 4 0
++0.0000
+trowlett@ada:~/Documents/CS201/A3$ ./fp_parse 4 4 0[K100
+-0.0000
+trowlett@ada:~/Documents/CS201/A3$ exit
+exit
+
+Script done on 2021-05-11 08:44:57-07:00 [COMMAND_EXIT_CODE="1"]

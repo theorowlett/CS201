@@ -1,0 +1,134 @@
+Script started on 2021-05-31 19:09:54-07:00 [TERM="xterm-256color" TTY="/dev/pts/71" COLUMNS="120" LINES="18"]
+trowlett@ada:~/Documents/CS201/A4$ [Ktrowlett@ada:~/Documents/CS201/A4$ make
+gcc main.c -g -c 
+gcc main.o -g -o A4
+trowlett@ada:~/Documents/CS201/A4$ ./A4 0x10 4
+0.	Exit
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Modulo
+6.	Reverse Input
+Menu item: 0
+trowlett@ada:~/Documents/CS201/A4$ ./A4 0x10 4
+0.	Exit
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Modulo
+6.	Reverse Input
+Menu item: 1
+16 + 4 = 20
+
+0.	Exit
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Modulo
+6.	Reverse Input
+Menu item: 2
+16 - 4 = 12
+
+0.	Exit
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Modulo
+6.	Reverse Input
+Menu item: 3
+16 * 4 = 64
+
+0.	Exit
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Modulo
+6.	Reverse Input
+Menu item: 4
+0x10 / 4 = 4.000000
+
+0.	Exit
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Modulo
+6.	Reverse Input
+Menu item: 5
+0x10 % 4 = 0
+
+0.	Exit
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Modulo
+6.	Reverse Input
+Menu item: 6
+4 01x0 
+
+0.	Exit
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Modulo
+6.	Reverse Input
+Menu item: 7
+Invalid selection. Try again.
+
+0.	Exit
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Modulo
+6.	Reverse Input
+Menu item: 0
+trowlett@ada:~/Documents/CS201/A4$ ./A4 0 0
+0.	Exit
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Modulo
+6.	Reverse Input
+Menu item: 4
+0 / 0 = -nan
+
+0.	Exit
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Modulo
+6.	Reverse Input
+Menu item: 0
+trowlett@ada:~/Documents/CS201/A4$ ./A4 0 0[Cx10 4[K3
+0.	Exit
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Modulo
+6.	Reverse Input
+Menu item: 4
+0x10 / 3 = 5.333333
+
+0.	Exit
+1.	Addition
+2.	Subtraction
+3.	Multiplication
+4.	Division
+5.	Modulo
+6.	Reverse Input
+Menu item: 0
+trowlett@ada:~/Documents/CS201/A4$ exit
+exit
+
+Script done on 2021-05-31 19:11:50-07:00 [COMMAND_EXIT_CODE="0"]

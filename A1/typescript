@@ -1,0 +1,120 @@
+Script started on 2021-04-08 07:31:02-07:00 [TERM="xterm" TTY="/dev/pts/10" COLUMNS="213" LINES="85"]
+trowlett@ada:~/Documents/CS201/A1$ ./exit[2P./typing_game 
+The quick brown fox jumps over the lazy dog 
+This is a game that tests typing speed
+Type the following words:
+Word #1 is over: over
+Word #2 is the: the
+Word #3 is brown: brown
+Word #4 is lazy: lazy
+Word #5 is quick: quick
+Word #6 is The: The
+Word #7 is dog: dog
+Word #8 is fox: fox
+Word #9 is jumps: jumps
+Elapsed time: 13.729270 seconds 
+trowlett@ada:~/Documents/CS201/A1$ ./typing_game 
+The quick brown fox jumps over the lazy dog 
+This is a game that tests typing speed
+Type the following words:
+Word #1 is lazy: lazz
+Word #1 is lazy: lazy
+Word #2 is jumps: jumpp
+Word #2 is jumps: jumps
+Word #3 is quick: quicc
+Word #3 is quick: quio ck
+Word #4 is dog: doo
+Word #4 is dog: doo g
+Word #5 is the: thh
+Word #5 is the: the
+Word #6 is brown: broww
+Word #6 is brown: brown
+Word #7 is fox: foo
+Word #7 is fox: fox
+Word #8 is over: ovee
+Word #8 is over: over
+Word #9 is The: Thh
+Word #9 is The: The
+Elapsed time: 30.510947 seconds 
+trowlett@ada:~/Documents/CS201/A1$ ./typing_game 
+The quick brown fox jumps over the lazy dog 
+This is a game that tests typing speed
+Type the following words:
+Word #1 is dog: do
+Word #1 is dog: dog
+Word #2 is quick: quic
+Word #2 is quick: quick
+Word #3 is the: th
+Word #3 is the: the
+Word #4 is The: Th
+Word #4 is The: The
+Word #5 is jumps: jum[p  p
+Word #5 is jumps: jumps
+Word #6 is lazy: lazy 
+Word #6 is lazy: lazy
+Word #7 is brown: brow
+Word #7 is brown: brown
+Word #8 is fox: fo
+Word #8 is fox: fox
+Word #9 is over: ove
+Word #9 is over: over
+Elapsed time: 26.644282 seconds 
+trowlett@ada:~/Documents/CS201/A1$ ./typing_game 
+The quick brown fox jumps over the lazy dog 
+This is a game that tests typing speed
+Type the following words:
+Word #1 is quick: quickdog
+Word #1 is quick: quickd 
+Word #2 is fox: foxdog
+Word #2 is fox: do  fop x
+Word #3 is The: Thedog
+Word #3 is The: The
+Word #4 is the: thedog
+Word #4 is the: the
+Word #5 is over: overdog
+Word #5 is over: over
+Word #6 is brown: browndog
+Word #6 is brown: brown
+Word #7 is jumps: jumpsdog
+Word #7 is jumps: jumps
+Word #8 is dog: dogdog
+Word #8 is dog: dog
+Word #9 is lazy: lazydog
+Word #9 is lazy: lazy
+Elapsed time: 36.697258 seconds 
+trowlett@ada:~/Documents/CS201/A1$ ./typing_game 
+The quick brown fox jumps over the lazy dog 
+This is a game that tests typing speed
+Type the following words:
+Word #1 is The: the
+Word #1 is The: The
+Word #2 is lazy: lazy
+Word #3 is fox: fox
+Word #4 is dog: dog
+Word #5 is the: The
+Word #5 is the: the
+Word #6 is over: over
+Word #7 is jumps: jumps
+Word #8 is brown: brown
+Word #9 is quick: quick
+Elapsed time: 14.949086 seconds 
+trowlett@ada:~/Documents/CS201/A1$ ./typing_game 
+The quick brown fox jumps over the lazy dog 
+This is a game that tests typing speed
+Type the following words:
+Word #1 is quick: quick dog
+Word #2 is lazy: lazy dog
+Word #3 is dog: dog dog
+Word #4 is jumps: jumps
+Word #5 is The: The
+Word #6 is the: the
+Word #7 is fox: fox
+Word #8 is over: over
+Word #9 is brown: brown
+Elapsed time: 19.758623 seconds 
+trowlett@ada:~/Documents/CS201/A1$ make clean
+rm *.o typing_game
+trowlett@ada:~/Documents/CS201/A1$ exit
+exit
+
+Script done on 2021-04-08 07:34:54-07:00 [COMMAND_EXIT_CODE="0"]
